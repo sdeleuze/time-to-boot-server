@@ -86,7 +86,7 @@ func measure(mode string, target string, command string, args ...string) time.Du
 		if status, houseKeeper := connectionFunction(target); status == true {
 			duration := time.Since(start)
 			houseKeeper()
-			cmd.Process.Kill()
+			cmd.Process.Signal(os.Interrupt)
 			cmd.Process.Wait()
 			return duration
 		}
