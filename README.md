@@ -21,7 +21,7 @@ There are 2 connection modes:
 
 This is a Go program so...
 
-    go get github.com/jponge/time-to-boot-server
+    go get github.com/sdeleuze/time-to-boot-server
 
 If you don't know how to build Go code:
 
@@ -29,7 +29,7 @@ If you don't know how to build Go code:
     export GOPATH=~/Code/go-workspace
     export PATH=$GOPATH/bin:$PATH
     
-    go get github.com/jponge/time-to-boot-server
+    go get github.com/sdeleuze/time-to-boot-server
 
 ## License
 
